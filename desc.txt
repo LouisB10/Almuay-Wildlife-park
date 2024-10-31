@@ -1,0 +1,49 @@
+Amuay Wildlife Park is a nature reserve situated 350 km west of the Venezuelan capital. The park's
+wide range of animal and plant life extends over 72 km2 through varying grassland, hills, and
+marshes. The Venezuelan government prohibits vehicular traffic through the area, other than by
+scheduled tours along specified dirt tracks, to protect the landscape, to protect visitors, and to
+preserve flora and fauna. You are required to design a Web site to highlight the variety of wildlife
+and fauna that may be experienced at Amuay Wildlife Park
+
+A. Submission Topology
+    1. Web links properly functioning
+    2. Appropriateness/suitability of chosen approach
+    to brief
+    3. Project meets brief
+    4. Submission file hierarchy (placement of support
+    files)
+
+B. Content
+    1. Page layout
+    2. Page Inheritance
+    3. Navigability
+
+C. Usability
+    1. Visual Impact
+    2. Usability & Intuition
+    3. Designed for audience (user-centricity)
+
+D. Skill
+    1. Software utilised
+    2. Imported objects present
+    3. Object quality
+    4. Techniques utilised in object creation
+    5. Planning
+    6. Completeness of project
+
+E. Files
+    1. Support files showing levels of completion of
+    objects
+    2. Evidence of original work
+    3. Evidence of manipulative work
+
+F. Documentation
+    1. Project documentation present as single
+    file
+    2. Quality of documentation
+    3. Completeness of documentation
+    
+G. Ideas
+    1. Innovation/Creativity
+    2. Uniqueness of ideas
+    3. Simplicity/Lack of complexity 

@@ -1,0 +1,581 @@
+/* Global styling for all elements */
+* {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+/* Styling for the body element */
+body {
+  width: 100vw;
+  background-color: #fefae0;
+}
+
+/*********************** BODY ***********************/
+
+/* Styling for the main container */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/******** Presentation-first *************/
+
+/* Styling for the first presentation section */
+.presentation-first {
+  height: 830px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  padding: 70px 0 70px 70px;
+  border-radius: 30px;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(30, 87, 33, 0.5),
+      rgba(30, 87, 33, 0.5)
+    ),
+    url("/img/fauna-jaguar2.webp");
+}
+
+/* Styling for text elements within the first presentation section */
+.presentation-first div:nth-child(1) {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.presentation-first div:nth-child(1) h1 {
+  font-size: 6em;
+  font-weight: 700;
+  color: #fefae0;
+  margin-bottom: 5%;
+}
+
+.presentation-first div:nth-child(1) p {
+  color: #fefae0;
+  font-size: 35px;
+}
+
+/* Styling for the gallery button within the first presentation section */
+.presentation-first div:nth-child(2) {
+  width: 390px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: none;
+  background-color: #1e5721;
+  filter: drop-shadow(8px 8px 0px #333632);
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.presentation-first div:nth-child(2):active {
+  transform: translateY(4px) translateX(4px);
+  filter: drop-shadow(4px 4px 0px #333632);
+}
+
+.presentation-first div:nth-child(2) a {
+  font-size: 35px;
+  font-weight: 500;
+  color: #fefae0;
+}
+
+/********presentation-second*****/
+.presentation-second {
+  height: 2200px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  padding: 70px 0 70px 70px;
+}
+/*presentation title*/
+.presentation-second h2 {
+  width: 90%;
+  height: auto;
+  font-size: 5em;
+  font-weight: bold;
+  color: #333632;
+}
+/*text desc*/
+.presentation-second p {
+  width: 95%;
+  font-size: 3em;
+  font-weight: 500;
+  color: #333632;
+}
+/********présentation-bird**********/
+.presentation-bird {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding-bottom: 70px;
+}
+/***div species and text***/
+.presentation-bird div {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/***div img parrot***/
+#parrot{
+  height: 95%;
+  width: 400px;
+  border-radius: 30px;
+  filter: drop-shadow(15px 15px 0px #1e5721);
+  margin-right: 1%;
+  background: url(/img/fauna-parrot.jpg);
+  background-size: cover;
+}
+/**div species circles**/
+.presentation-bird div div {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/*div 3 species */
+.presentation-bird div div div {
+  width: 33%;
+  display: flex;
+  height: 100%;
+}
+/*img circle de couleur*/
+.presentation-bird div div div img {
+  width: 75px;
+  height: 75px;
+  z-index: -2;
+  left: -5%;
+}
+/*li species*/
+.presentation-bird div div div li {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+/*li a species number*/
+.presentation-bird div div div li a:nth-child(1) {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333632;
+}
+/*li a species name*/
+.presentation-bird div div div li a:nth-child(2) {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333632;
+}
+/********présentation-mammals**********/
+.presentation-mammals {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 70px;
+  padding-right: 70px;
+}
+/*img monkey mammals*/
+#monkey {
+  width: 750px;
+  height: 100%;
+  border-radius: 30px;
+  filter: drop-shadow(15px 15px 0px #976065);
+  margin-right: 1%;
+  background: url(../img/fauna-monkey.jpg);
+  background-size: cover;
+}
+/*desc mammals*/
+.presentation-mammals p {
+  width: 40%;
+  margin-right: 70px;
+}
+/********présentation-reptiles**********/
+.presentation-reptiles {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2%;
+}
+/*img snake reptile*/
+#snake {
+  width: 750px;
+  height: 100%;
+  border-radius: 30px;
+  filter: drop-shadow(15px 15px 0px #d4bb45);
+  margin-right: 1%;
+  background: url(../img/fauna-snake.jpg);
+  background-size: cover;
+}
+/***div container reptiles***/
+.presentation-reptiles div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/**btn container**/
+.presentation-reptiles div div {
+  width: 500px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+#btn-mammals {
+  background-color: #976065;
+  margin-bottom: 30px;
+}
+#btn-reptiles {
+  background-color: #d4bb45;
+  margin-bottom: 30px;
+}
+#btn-birds {
+  background-color: #1e5721;
+}
+/**container img**/
+.presentation-reptiles div div div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333632;
+}
+/*img arrow */
+.presentation-reptiles div div img {
+  transform: rotate(90deg);
+  width: 45px;
+  height: 45px;
+}
+/*text btn*/
+.presentation-reptiles div div a {
+  font-size: 2.1em;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 7%;
+}
+#btn-reptiles a {
+  padding-left: 0;
+  padding-right: 7%;
+}
+/***********************FLORA******************/
+/* Container for flora section */
+.flora-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+  height: 4000px;
+  border-radius: 30px;
+  background-color: #333632;
+  padding: 70px 0 35px 70px;
+  margin-bottom: 3%;
+}
+
+/* Title styling */
+.flora-container h1 {
+  width: 65%;
+  color: white;
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+
+/* Styling for the span within the title */
+.flora-container h1 span {
+  color: #1e5721;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+/* Paragraph styling */
+.flora-container p {
+  color: white;
+  font-size: 3.5em;
+}
+
+/**First flora/fauna**/
+.first-flora, .first-fauna {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 600px;
+  margin-bottom: 70px;
+}
+
+/* Left part image styling */
+#florab {
+  width: 70%;
+  height: 100%;
+  border-radius: 25px;
+  background: url(../img/flora-blanc.png);
+  background-size: cover;
+  margin-right: 2%;
+}
+
+/* Right part styling */
+.right-first {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Paragraph styling within the right part */
+.right-first p {
+  width: 100%;
+  height: 300px;
+  text-align: end;
+}
+
+/** Image container **/
+#right-first-img {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Styling for the first image in the right part */
+#right-first-img div:nth-child(1) {
+  width: 300px;
+  height: 100%;
+  border-radius: 25px;
+  background: url(../img/flora-plumeria.jpg);
+  background-size: cover;
+}
+
+/* Styling for the second image in the right part */
+#right-first-img div:nth-child(2) {
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+  background: url(../img/flora-haiman.jpg);
+  background-size: cover;
+}
+
+/****Second flora/fauna***/
+.second-flora,.second-fauna {
+  width: 95%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Styling for the left and right containers */
+.right-second, .left-second {
+  height: 100%;
+  width: 47.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/****FLORA IMG***/
+/* Styling for the middle image in the left part */
+.left-second div {
+  width: 100%;
+  height: 850px;
+  border-radius: 25px;
+  background: url(../img/flora-large.png);
+  background-size: cover;
+}
+/* Styling for the first image in the right part */
+ .right-second div:nth-child(1) {
+  width: 100%;
+  height: 400px;
+  border-radius: 25px;
+  background: url(../img/flora-jaune.jpg);
+  background-size: cover;
+}
+
+/* Styling for the second image in the right part */
+#right-second-2-img {
+  width: 100%;
+  height: 760px;
+  border-radius: 25px;
+  background: url(../img/flora-bougainviller.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/****FAUNA IMG***/
+/* Styling for the middle image in the left part */
+#fleft-second-img {
+  width: 100%;
+  height: 850px;
+  border-radius: 25px;
+  background: url(../img/fauna-vautour.jpg);
+  background-size: cover;
+}
+
+/* Styling for the first image in the right part */
+#fright-second-1-img{
+  width: 100%;
+  height: 400px;
+  border-radius: 25px;
+  background: url(../img/fauna-colibri.jpg);
+  background-size: cover;
+}
+
+/* Styling for the second image in the right part */
+#fright-second-2-img {
+  width: 100%;
+  height: 760px;
+  border-radius: 25px;
+  background: url(../img/fauna-aigle.jpg);
+  background-size: cover;
+}
+/****Third flora / Third fauna***/
+.third-flora, .third-fauna {
+  width: 95%;
+  height: 30%;
+  border-radius: 30px;
+  background-size: cover;
+}
+
+.third-flora{
+  background: url(../img/flora-plantas.jpg);
+}
+
+.third-fauna {
+  background: url(../img/fauna-parresseux.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/***Bottom flora/fauna***/
+.bottom-flora, .bottom-fauna {
+  width: 95%;
+  height: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Styling for the Venezuela image */
+#venezuela {
+  width: 100px;
+}
+
+/* Styling for the links and text at the bottom */
+.bottom-flora a, .bottom-fauna a {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styling for the paragraph within the links */
+.bottom-flora a p,.bottom-fauna a p {
+  font-weight: 700;
+  padding-right: 2%;
+}
+.bottom-flora a p{
+  color: #ffffff;
+}
+.bottom-fauna a p{
+  color: #333632;
+}
+
+/* Styling for the arrow image */
+.bottom-flora a img,.bottom-fauna a img {
+  height: 50px;
+  transform: rotate(90deg);
+}
+
+/***********FAUNA**************/
+/* Container for flora section */
+.fauna-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+  height: 4000px;
+  border-radius: 30px;
+  padding: 70px 0 35px 70px;
+  margin-bottom: 3%;
+}
+/* Title styling */
+.fauna-container h1 {
+  width: 85%;
+  color: #333632;
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+/* Styling for the span within the title */
+.fauna-container h1 span {
+  color: #976065;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 800;
+}
+/* Paragraph styling */
+.fauna-container p {
+  color: #333632;
+  font-size: 3.5em;
+}
+/* Left part image styling */
+#faunab {
+  width: 70%;
+  height: 100%;
+  border-radius: 25px;
+  background: url(../img/fauna-iguane.jpg);
+  background-size: cover;
+  margin-right: 2%;
+}
+/** Image container **/
+#fright-first-img {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Styling for the first image in the right part */
+#fright-first-img div:nth-child(1) {
+  width: 300px;
+  height: 100%;
+  border-radius: 25px;
+  background: url(../img/fauna-caiman.jpg);
+  background-size: cover;
+}
+
+/* Styling for the second image in the right part */
+#fright-first-img div:nth-child(2) {
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+  background: url(../img/fauna-anaconda.jpg);
+  background-size: cover;
+}
+

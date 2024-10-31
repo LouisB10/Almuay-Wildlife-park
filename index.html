@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amuay Wildlife Park</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <!-- Header section containing the navigation bar -->
+    <header>
+      <!-- Navigation bar with logo, menu, and a call-to-action button -->
+      <nav>
+        <!-- Logo image -->
+        <img src="img/logo.png" alt="logo" />
+
+        <!-- Menu items listed in an unordered list -->
+        <ul>
+          <!-- Active menu item with a specific styling -->
+          <li id="active">
+            <a href="index.html">Presentation</a>
+            <!-- Underline element for active state -->
+            <span></span>
+          </li>
+
+          <!-- Additional menu items -->
+          <li>
+            <a href="flora.html">Flora</a>
+            <span></span>
+          </li>
+          <li>
+            <a href="fauna.html">Fauna</a>
+            <span></span>
+          </li>
+          <li>
+            <a href="gallery.html">Gallery</a>
+            <span></span>
+          </li>
+        </ul>
+
+        <!-- Button for additional information -->
+        <button>
+          <!-- Text content of the button -->
+          <a href="https://venezuela.visitglob.com/faune-et-flore/" target="_blank">More informations</a> 
+
+          <!-- Arrow image for visual representation -->
+          <img src="./img/fleche-bas.png" alt="arrow" />
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Presentation section with a distinct visual style (class: presentation-first) -->
+      <div class="presentation-first">
+        <!-- Left column containing a welcoming heading and informative paragraph -->
+        <div>
+          <!-- Main heading welcoming visitors -->
+          <h1>Welcome at the Amuay Wildlife Park</h1>
+
+          <!-- Informative paragraph describing the park's location and features -->
+          <p>
+            A natural reserve situated 350km west of the Venezuela capital. The
+            park’s wide range of animal and plant life extends over 72km²
+            through varying grassland, hills, and marshes.
+          </p>
+        </div>
+
+        <!-- Right column containing a call-to-action link -->
+        <div>
+          <!-- Call-to-action link inviting visitors to check out the gallery -->
+          <a>Checkout the gallery</a>
+        </div>
+      </div>
+      <!-- Second presentation section with a distinctive style (class: presentation-second) -->
+      <div class="presentation-second">
+        <!-- Heading highlighting the theme of the presentation -->
+        <h2>Discover the beauty of Venezuelan national heritage!</h2>
+
+        <!-- Bird presentation section -->
+        <div class="presentation-bird">
+          <div>
+            <!-- Statistics for mammals, reptiles, and birds -->
+            <div>
+              <div>
+                <li>
+                  <!-- Number of mammals with a red circle -->
+                  <a>351</a>
+                  <a>Mammals</a>
+                </li>
+                <img src="/img/mammalscerle.png" alt="red circle" />
+              </div>
+              <div>
+                <li>
+                  <!-- Number of reptiles with a yellow circle -->
+                  <a>341</a>
+                  <a>Reptiles</a>
+                </li>
+                <img src="/img/reptilescercle.png" alt="yellow circle" />
+              </div>
+              <div>
+                <li>
+                  <!-- Number of birds with a green circle -->
+                  <a>1,417</a>
+                  <a>Birds</a>
+                </li>
+                <img src="/img/birdscerle.png" alt="green circle" />
+              </div>
+            </div>
+
+            <!-- Paragraph describing the biodiversity of Amuay Wildlife Park -->
+            <p>
+              Uncover the extraordinary biodiversity of Amuay Wildlife Park,
+              where the natural tapestry is woven with a myriad of mammal,
+              reptile, and bird species native to the enchanting landscapes of
+              Venezuela.
+            </p>
+          </div>
+
+          <!-- Placeholder for an image of a parrot -->
+          <div id="parrot"></div>
+        </div>
+
+        <!-- Mammals presentation section -->
+        <div class="presentation-mammals">
+          <!-- Placeholder for an image of a monkey -->
+          <div id="monkey"></div>
+
+          <!-- Description of Venezuela's biodiversity and endemic species -->
+          <p>
+            Immerse yourself in the richness of Venezuela, a treasure trove of
+            biodiversity. Within Amuay Wildlife Park, discover the wonder of
+            endemic species—nature's exclusive gems that call this country home,
+            creating a unique and irreplaceable tapestry of life.
+          </p>
+        </div>
+
+        <!-- Reptiles presentation section -->
+        <div class="presentation-reptiles">
+          <div>
+            <!-- Buttons linking to different galleries -->
+            <div id="btn-mammals">
+              <a href="gallery.html">All the mammals</a>
+              <div><img src="img/fleche-bas.png" alt="" /></div>
+            </div>
+            <div id="btn-reptiles">
+              <div><img src="img/fleche-bas.png" alt="" /></div>
+              <a href="gallery.html">Into the reptile world</a>
+            </div>
+            <div id="btn-birds">
+              <a href="gallery.html">Check out birds here</a>
+              <div>
+                <img src="img/fleche-bas.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Image of a snake, representing the reptiles -->
+          <img id="snake" src="/img/fauna-snake.jpg" alt="snake" />
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

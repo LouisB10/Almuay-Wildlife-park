@@ -1,0 +1,104 @@
+/****** HEADER ******/
+
+/* Header container */
+header {
+  width: 100vw;
+  margin-bottom: 2%;
+}
+
+/* Navigation bar styling */
+nav {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo styling */
+nav img {
+  height: 100%;
+  margin-right: 15%;
+}
+
+/* Menu styling */
+nav ul {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 7%;
+}
+
+/* Individual menu item styling */
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+/* Active menu item styling */
+#active a {
+  color: #1e5721;
+}
+
+#active span {
+  background-color: #1e5721;
+  display: block;
+}
+
+/* Text styling for menu items */
+nav ul li a {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333632;
+}
+
+/* Green color on hover for menu items */
+nav ul li:hover a {
+  color: #1e5721;
+}
+
+/* Styling for the underline below the text */
+nav ul li span {
+  display: none;
+  width: 75%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #333632;
+}
+
+/* Green color on hover for the underline */
+nav ul li:hover span {
+  background-color: #1e5721;
+  display: block;
+}
+
+/* Button styling */
+nav button {
+  width: 325px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border: none;
+  background-color: #1e5721;
+  filter: drop-shadow(8px 8px 0px #333632);
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+  padding-left: 1%;
+}
+nav button:active{
+  transform: translateY(4px) translateX(4px);
+  filter: drop-shadow(4px 4px 0px #333632);
+}
+/* Text styling for the button */
+nav button a {
+  color: #fff;
+  font-size: 2em;
+}
+nav button img{
+  height: 45px;
+  width: 45Px;
+  margin-right: 0;
+}
